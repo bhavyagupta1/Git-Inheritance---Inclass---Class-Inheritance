@@ -1,7 +1,7 @@
 // declare class
 
 // export class using module.exports
-export default class Shape{
+class Shape{
     constructor(){
         this.color="red";
     }
@@ -12,4 +12,4 @@ export default class Shape{
          console.log("Dont want to calculate now");
     }
 }
-
+module.export=Shape;
