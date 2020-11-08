@@ -6,7 +6,7 @@ class Shape{
         this.color="red";
     }
     drawShape(){
-        
+    
           console.log("draw a shape");
     }
     calculateArea(){
