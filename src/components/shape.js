@@ -10,7 +10,8 @@ class Shape{
     }
     calculateArea(){
          console.log("Dont want to calculate now");
+         return 0;
     }
 }
 
-module.export=Shape;
+module.exports = Shape;
